@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Trirong", serif;
+        }
+        h1{
+            /* margin: auto; */
+            text-align: center;
+            /* width: 400px; */
+        }
+
+        .container {
+            border: 2px solid rgb(7, 3, 221);
+            width: 900px;
+            margin: auto;
+            background-color: rgb(219, 186, 157);
+        }
+
+        .item {
+            background-color: rgb(226, 171, 171);
+            border: 2px solid purple;
+            margin: 10px 5px;
+            padding: 10px 5px;
+            width: auto;
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+        }
+
+
+        #computer {
+            float: right;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            /* width: 100%; */
+        }
+        p{
+            /* text-align: right; */
+            /* text-align: center; */
+            /* text-align: left; */
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque adipisci impedit,
+                asperiores eos
+                recusandae quaerat harum cupiditate tenetur blanditiis facere numquam minima voluptas voluptate neque
+                similique iure fuga et, culpa rem dolor. Fugiat dolorum necessitatibus commodi recusandae, fugit
+                quibusdam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio neque magnam fuga ea culpa?
+                Laboriosam est aliquid labore, ipsum eveniet et voluptatem eum culpa aliquam quas deserunt modi, saepe
+                inventore fuga necessitatibus unde corrupti ipsam tenetur minus itaque? Sed, architecto?</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque adipisci impedit,
+                asperiores eos
+                recusandae quaerat harum cupiditate tenetur blanditiis facere numquam minima voluptas voluptate neque
+                similique iure fuga et, culpa rem dolor. Fugiat dolorum necessitatibus commodi recusandae, fugit
+                quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolorum ad! Aliquid ut amet
+                laudantium quas id magnam molestiae tempora voluptate fuga recusandae officiis voluptatum aperiam nobis
+                nostrum delectus ducimus, ex fugit vitae animi cumque! Tempore, odio eveniet. Nobis, eligendi.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque adipisci impedit,
+                asperiores eos
+                recusandae quaerat harum cupiditate tenetur blanditiis facere numquam minima voluptas voluptate neque
+                similique iure fuga et, culpa rem dolor. Fugiat dolorum necessitatibus commodi recusandae, fugit
+                quibusdam?</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>stationary</h3>
+            <p id="glassespara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eaque adipisci impedit,
+                asperiores eos
+                recusandae quaerat harum cupiditate tenetur blanditiis facere numquam minima voluptas voluptate neque
+                similique iure fuga et, culpa rem dolor. Fugiat dolorum necessitatibus commodi recusandae, fugit
+                quibusdam?</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
