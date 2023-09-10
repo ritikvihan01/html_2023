@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links & Buttons (pseudo selectors)</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rgb(34, 219, 133);
+            padding: 35px;
+            margin: 35px auto;
+            width: 666px;
+        }
+        .btn{
+            background-color: rgb(218, 12, 156);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none; /* to remove underline*/
+        }
+        a:hover{                /* agar hum apna cursor uske uper leke jaye to uska colour change ho jaye*/
+            color: brown; 
+            background-color: blueviolet;
+        }
+        /*visited after one time click*/
+        /* a:visited{
+            background-color: yellow;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore earum, numquam cum accusamus provident,
+            eligendi voluptatem illum culpa eius dicta minus. Repellendus ex dignissimos, reprehenderit doloribus
+            temporibus in id eaque et tenetur distinctio necessitatibus?</p>
+            <a href="https://google.com" class="btn">Read more</a>
+            <button class="btn">Contact us</button>
+    </div>
+
+</body>
+
+</html>
