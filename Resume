@@ -7,23 +7,23 @@
 </head>
 <style>
     * {
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
 }
 
 
-body {
+/*body {
     min-width: 500px;
-}
+}*/
 
 div {
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 #header {
   height: 40px;
   width: 100%;
-  background-color: #e0eeee;
+  background-color: #ffcccc;
   position: fixed;
   z-index: 1;
 }
@@ -35,7 +35,7 @@ div {
 #footer {
   height: 50px;
   width: 100%;
-  background-color: #e0eeee;
+  background-color: #ffcccc;
   clear: both;
   position: relative;
 }
@@ -53,13 +53,13 @@ div {
   width: 45px;
   background-color: #e0eeee;
   float: right;
-  position: relative;
+  position: inherit;
 }
 
 .stuff {
   display: inline-block;
-  margin-top: 20px;
-  margin-left: 100px;
+  margin-top: 6px;
+  margin-left: 55px;
   width: 75%;
   height: 1000px;
 }
@@ -75,7 +75,7 @@ li {
 
 #name {
   font-family: Sacramento;
-  float:right;
+  float: right;
   margin-top: 10px;
   margin-right: 4%;
 }
@@ -95,60 +95,67 @@ a {
     margin-left: 10px;
   }
 }
+.head1{
+    text-align: center;
+}
 </style>
 <body>
     <div id="header"></div>
 <div class="left"></div>
-
-</div>
 <div class="stuff">
   <br><br>
+  <div class="head1">
   <h1>Resume</h1>
   <h2>Ritik Vihan</h2>
   <hr />
+</div>
   <br>
-  <div>
-    <p  class="head"><strong>Social Media</strong></p>
-    <ul>
-        <li>Email:- ritikvihan01@gmail.com</li>
-        <li>Linkedin- ritikvihan01@gmail.com</li>
-        <li>Instagram- ritikvihan01</li>
-    </ul>
-    </div>
-  <p class="head"><strong>Interests</strong></p>
+  <h3>About</h3>
   <ul>
-    <li>Computer Science</li>
+  <li>Hello my name is ritik vihan and i am from Meerut.</li>
+  <li>I completed my B.S.c from Meerut College Meerut.</li>
+  <li>I Pursuing my M.C.A from K.I.E.T Group of institution</li>
+</ul>
+  <p class="head">Contact</p>
+  <ul>
+    <li>Email:- ritikvihan01@gmail.com</li>
+    <li>Linkedin l'd:- ritikvihan01@gmail.com</li>
+    <li>Github l'd:- ritikvihan01@gmail.com</li>
+    <li>Mob:- 8193803378</li>
+  </ul><br>
+  <p class="head">Interests</p>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Java Script</li>
     <li>Programming</li>
-    <li>Playing Cricket</li>
-  </ul>
-  <p class="head"><strong>Skills</strong></p>
+    <li>C Language</li>
+  </ul><br>
+  <p class="head">Skills</p>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Java Script</li>
-  </ul>
-  <p class="head"><strong>Education</strong></p>
+    <li>Web Design with HTML & CSS</li>
+  </ul><br>
+  <p class="head">Education</p>
   <ul>
-      <li>10th From S.V.I.C. Meerut</li>
-      <li>12th From S.V.I.C. Meerut</li>
-      <li>B.S.c From Meerut College</li>
-      <li>Pursuing M.C.A. From K.I.E.T Group of institution</li>
-  </ul>
-  <p class="head"><strong>Experience</strong></p>
+      <li>10th From S.V.I.C Rijhani Meerut</li>
+      <li>12th From S.V.I.C Rijhani Meerut</li>
+      <li>B.S.c From  Meerut College Meerut</li>
+    </a>
+  </ul><br>
+  <p class="head">Experience</p>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Java Script</li>
-  </ul>
-  <p class="head"><strong>Hobbies</strong></p>
+    <li>Student Technology Intern for Wilton School District</li>
+    <li>Babysitter</li>
+  </ul><br>
+  <p class="head">Extracurriculars</p>
   <ul>
-    <li>Playing Cricket</li>
-    <li>Listning Music</li>
-  </ul>
+    <li>Recycling Club</li>
+    <li>Gardening Club</li>
+    <li>Book Club</li>
+  </ul><br>
 </div>
 <div class="right"></div>
 <div id="footer">
-  <h2 id="name"><strong>Ritik Vihan</strong></h2></div>
-    
+  <h2 id="name">Ritik Vihan</h2></div>
 </body>
 </html>
