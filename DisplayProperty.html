@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display property</title>
+    <style>
+        img{
+            width: 150px;
+            /* padding-left: 25px; */
+            /* border: 2px solid black; */
+            margin: auto;    /* Display block ka matlab han ki uski width ko set kr sakte han or margin auto krke use center kr sakte han*/
+            display: block;
+        }
+        h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 4px;
+            text-align: center;
+        }
+        header{
+            margin: auto;  /*width ke sath margin auto lagayenge to center ho jayega*/
+            border: 2px solid blue;
+            width: 1200px;
+        }
+        .box{
+            background-color: grey;
+            border: 2px solid black;
+            margin: 4px 0px;
+            padding: 23px;
+            display: inline-block;
+            width: 33%;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: auto;
+            width: 1200px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="https://media.licdn.com/dms/image/D5603AQFlW8L9PIxdfg/profile-displayphoto-shrink_800_800/0/1681194152923?e=2147483647&v=beta&t=Hw9dkITYuHUQyq6kRyrZR5XLDTaoaL6DidbfrR7McUQ"
+            alt="">
+        <h3>Welcome to Ritik's Blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4>heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequatur vel, id facilis at voluptatum a vero minus dolorem. Asperiores corrupti consequatur aut rerum cupiditate. Necessitatibus quia cumque, possimus nulla, voluptate quas laboriosam blanditiis fugiat exercitationem, natus praesentium excepturi numquam.</p>
+        </div>
+        <div class="box">
+            <h4>heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequatur vel, id facilis at voluptatum a vero minus dolorem. Asperiores corrupti consequatur aut rerum cupiditate. Necessitatibus quia cumque, possimus nulla, voluptate quas laboriosam blanditiis fugiat exercitationem, natus praesentium excepturi numquam.</p>
+        </div>
+        <div class="box">
+            <h4>heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequatur vel, id facilis at voluptatum a vero minus dolorem. Asperiores corrupti consequatur aut rerum cupiditate. Necessitatibus quia cumque, possimus nulla, voluptate quas laboriosam blanditiis fugiat exercitationem, natus praesentium excepturi numquam.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
