@@ -1,30 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
-        var jsobject=[{
-            "name": "Ritik",
-            "Age": "21",
-            "Gender": "M"
-        },
+<html>
+    <head>
+        <script>
+            var jsonobj=[
+                {
+                    "name":"Ritik",
+                    "Age":"21",
+                    "Gender":"M"
+            },
+            {
+               
+                "name":"Prashant",
+                    "Age":"22",
+                    "Gender":"M" 
+            },
+            {
+                
+                "name":"Akshit",
+                    "Age":"20",
+                    "Gender":"M"
+            }
+        ];
+        for(var i=0;i<jsonobj.length;i++)
         {
-            "name": "Prashant",
-            "Age": "22",
-            "Gender": "M"
-        },
-        {
-            "name": Hritik,
-            "Age": "21",
-            "Gender": "M"
-        },
-    ];
-    for(var i=0;i<jsobject.length;i++);
-    </script>
-</head>
-<body>
-    
-</body>
+document.write(jsonobj[i].name+"-");
+document.write(jsonobj[i].Age+"==");
+document.write(jsonobj[i].Gender+"</br>");
+
+        }
+        document.write(jsonobj[0].name);
+        document.write(jsonobj[1].Age);
+        document.write(jsonobj[2].Gender);
+        </script>
+    </head>
 </html>
