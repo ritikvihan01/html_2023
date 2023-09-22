@@ -91,6 +91,7 @@ div {
 <div class="stuff">
   <br><br>
   <div class="head1">
+    <img src="logo.jpg" style="border-radius: 50%; width: 200px;">
   <h1>Resume</h1>
   <h2>Ritik Vihan</h2>
   <hr/>
@@ -105,8 +106,8 @@ div {
   <p class="head">Contact</p>
   <ul>
     <li>Email:- ritikvihan01@gmail.com</li>
-    <li>Linkedin l'd:- ritikvihan01@gmail.com</li>
-    <li>Github l'd:- ritikvihan01@gmail.com</li>
+    <li>Linkedin l'd:- ritikvihan01</li>
+    <li>Github l'd:- ritikvihan01</li>
     <li>Mob:- 8193803378</li>
   </ul><br>
   <p class="head">Interests</p>
